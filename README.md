@@ -16,13 +16,13 @@ This project automatically extracts, summarizes, and analyzes the **MD&A section
 ## 🗂️ Project Structure
 
 ai-analyst-assistant/
-├── AIAnalystAssistant.ipynb # Main Jupyter notebook
-├── .env.example # Template for API keys
-├── requirements.txt # Dependencies
-├── .gitignore # Files/folders to ignore
-├── summaries/ # GPT-generated summaries (ignored)
-├── mdna_texts/ # Raw MD&A text files (ignored)
-├── word_reports/ # Final Word document reports (ignored)
+ ├── AIAnalystAssistant.ipynb # Main Jupyter notebook
+ ├── .env.example # Template for API keys
+ ├── requirements.txt # Dependencies
+ ├── .gitignore # Files/folders to ignore
+ ├── summaries/ # GPT-generated summaries (ignored)
+ ├── mdna_texts/ # Raw MD&A text files (ignored)
+ ├── word_reports/ # Final Word document reports (ignored)
 ---
 
 ## 🚀 How to Use
@@ -33,9 +33,11 @@ git clone https://github.com/rypar09/ai-analyst-assistant.git
 cd ai-analyst-assistant
 
 2. **Install dependencies**
+
 pip install -r requirements.txt
 
 3. **Set up your environment variables**
+   
 Create a `.env` file in the project root with the following content:
    SEC_API_KEY=your-sec-api-key-here
    OPENAI_API_KEY=your-openai-api-key-here
