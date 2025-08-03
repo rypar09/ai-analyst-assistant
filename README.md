@@ -13,18 +13,6 @@ This project automatically extracts, summarizes, and analyzes the **MD&A section
 
 ---
 
-## 🗂️ Project Structure
-
-ai-analyst-assistant/
- ├── AIAnalystAssistant.ipynb # Main Jupyter notebook
- ├── .env.example # Template for API keys
- ├── requirements.txt # Dependencies
- ├── .gitignore # Files/folders to ignore
- ├── summaries/ # GPT-generated summaries (ignored)
- ├── mdna_texts/ # Raw MD&A text files (ignored)
- ├── word_reports/ # Final Word document reports (ignored)
----
-
 ## 🚀 How to Use
 
 1. **Clone the repository**
