@@ -1,7 +1,13 @@
 .env
 __pycache__/
 *.pyc
+
+# Output and build folders
 summaries/
 mdna_texts/
 word_reports/
 venv/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb
