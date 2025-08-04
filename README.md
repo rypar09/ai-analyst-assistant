@@ -1,15 +1,17 @@
 # AI Analyst Assistant 📊🤖
 
-This project automatically extracts, summarizes, and analyzes the **MD&A section** from the most recent 10-K filings for public companies — using the SEC API and OpenAI's language model. The final output is a formal Word report suitable for investment research.
+This project automatically extracts, summarizes, and analyzes the most critical sections from the latest 10-K filings of public companies — using the SEC API and OpenAI’s language models. The output includes both a comprehensive full-length research report and a clean, one-page investment brief, each formatted in Microsoft Word.
 
 ---
 
 ## 🧠 What It Does
-
-✅ Fetches the latest 10-K filing for selected tickers from the SEC  
-✅ Extracts the MD&A (Management’s Discussion & Analysis) section  
-✅ Summarizes and analyzes the section using OpenAI (GPT-3.5)  
-✅ Generates a clean, formal investment brief in Word format
+✅ Fetches the latest 10-K filing for selected tickers from the SEC
+✅ Extracts Items 1 (Business), 1A (Risk Factors), and 7 (MD&A)
+✅ Summarizes and analyzes these sections using OpenAI (GPT-3.5 or GPT-4)
+✅ Produces two output documents:
+      - A detailed Full Equity Research Report (with analyst placeholders)
+      - A short, objective Investment Brief in flowing paragraph form
+✅ Converts all outputs to clean .docx Word files
 
 ---
 
@@ -40,9 +42,10 @@ Open `AIAnalystAssistant.ipynb` in Jupyter or VS Code, update the tickers list, 
 
 ## 📄 Example Outputs
 
-- `AAPL_mdna.txt` — Raw extracted MD&A section  
-- `AAPL_summary.txt` — GPT-generated summary  
-- `AAPL_summary.docx` — Formal investment brief
+- 10k_sections/ — Extracted raw sections (txt)
+- full_reports/ - Full-length research reports (txt + docx)
+- investment_briefs/ - One-page investment briefs (txt + docx)
+
 
 ---
 
@@ -55,7 +58,8 @@ Open `AIAnalystAssistant.ipynb` in Jupyter or VS Code, update the tickers list, 
 
 ## 🛡️ Disclaimer
 
-This tool is for **educational and research purposes only**. It does not constitute investment advice.
+This tool is for **educational and research purposes only**. 
+It does not constitute investment advice.
 
 ---
 
