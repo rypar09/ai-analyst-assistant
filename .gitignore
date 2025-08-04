@@ -10,3 +10,5 @@ venv/
 
 # Jupyter artifacts
 .ipynb_checkpoints/
+
+.DS_Store
